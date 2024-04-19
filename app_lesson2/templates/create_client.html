@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Создать клиента</h2>
+<form method="post">
+  {% csrf_token %}
+  <label for="name">Имя:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">Электронная почта:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="phone_number">Номер телефона:</label><br>
+  <input type="text" id="phone_number" name="phone_number"><br>
+  <label for="address">Адрес:</label><br>
+  <textarea id="address" name="address"></textarea><br>
+  <button type="submit">Создать</button>
+</form>
+{% endblock %}

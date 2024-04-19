@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Все клиенты</h2>
+
+<ul>
+  <ul>
+    {% for client in clients %}
+    <li>
+        {{ client.name }} - {{ client.email }} - {{ client.phone_number }} - {{ client.address }}
+        <form id="updateForm{{ client.id }}" action="{% url 'update_client' client.id %}" method="post" style="display: inline;">
+            {% csrf_token %}
+            <button type="submit">Изменить</button>
+        </form>
+        <form id="deleteForm{{ client.id }}" action="{% url 'delete_client' client.id %}" method="post" style="display: inline;">
+            {% csrf_token %}
+            <button type="button" onclick="confirmDelete({{ client.id }})">Удалить</button>
+        </form>
+    </li>
+    {% endfor %}
+</ul>
+
+<script>
+    function confirmDelete(clientId) {
+        if (confirm('Вы уверены, что хотите удалить этого клиента?')) {
+            document.getElementById('deleteForm' + clientId).submit();
+        }
+    }
+</script>
+
+</ul>
+
+<script>
+  function confirmDelete(clientId) {
+      if (confirm('Вы уверены, что хотите удалить этого клиента?')) {
+          document.getElementById('deleteForm' + clientId).submit();
+      }
+  }
+</script>
+
+{% endblock %}

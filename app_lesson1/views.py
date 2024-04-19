@@ -8,19 +8,22 @@ def home(request):
     html = """
     <h1>Добро пожаловать на мой первый Django-сайт!</h1>
     <p>Привет, я Евгений, разработчик АСУТП и начинающий Python-разработчик.</p>
+    <a href="/about/">О нас</a>
+    <a href="/lesson2/">Урок 2</a>
+
     """
 
     logger.info("Пользователь посетил страницу 'главная'")
     
     return HttpResponse(html)
 
-def about(request):
 
+def about(request):
     html = """
     <h1>Обо мне</h1>
     <p>Меня зовут Евгений, я разработчик АСУТП и начинающий Python-разработчик.</p>
+    <a href="/">Домой</a>
     """
-    
 
     logger.info("Пользователь посетил страницу 'о себе'")
     

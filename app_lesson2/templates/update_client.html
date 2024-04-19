@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Обновить клиента</h2>
+<form method="post">
+  {% csrf_token %}
+  <label for="name">Имя:</label><br>
+  <input type="text" id="name" name="name" value="{{ client.name }}"><br>
+  <label for="email">Электронная почта:</label><br>
+  <input type="email" id="email" name="email" value="{{ client.email }}"><br>
+  <label for="phone_number">Номер телефона:</label><br>
+  <input type="text" id="phone_number" name="phone_number" value="{{ client.phone_number }}"><br>
+  <label for="address">Адрес:</label><br>
+  <textarea id="address" name="address">{{ client.address }}</textarea><br>
+  <button type="submit">Обновить</button>
+</form>
+{% endblock %}
