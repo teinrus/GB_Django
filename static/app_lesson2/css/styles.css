@@ -1,0 +1,141 @@
+
+/* Стили для основного контейнера */
+body {
+  background-color: #c4b1c3; 
+  color: #333; 
+  font-family: Arial, sans-serif; 
+ 
+  background-size: cover; 
+  background-position: center; 
+}
+
+/* Стили для навигационного меню */
+nav {
+  background-color: rgba(94, 53, 177, 0.8); 
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline; 
+}
+
+/* Стили клиента */
+.client-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 10px; 
+  
+}
+
+.client-info {
+  border: 1px solid #ccc; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  padding: 10px;
+  margin-bottom: 10px; 
+  flex-grow: 1;
+}
+
+.client-buttons form {
+  margin-left: 10px;
+}
+
+
+/* Стили для кнопок клиента */
+.btn-update {
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-right: 10px; 
+  outline: none; 
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-right: 10px;
+  outline: none;
+}
+
+.btn-view {
+  background-color: #28a745; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-right: 10px; 
+  outline: none; 
+}
+
+/* Убираем отступ справа у последней кнопки */
+.btn-update:last-child,
+.btn-delete:last-child,
+.btn-view:last-child {
+  margin-right: 0;
+}
+
+/* Стили для формы */
+form {
+  max-width: 400px;
+  margin: 20px auto; 
+  padding: 20px; 
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+  border-radius: 5px;
+
+}
+
+form label {
+  display: inline-block;
+  width: 80%; 
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 95%; 
+  padding: 8px; 
+  margin-bottom: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+form button[type="submit"] {
+  background-color: #5e35b1; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px; 
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.5s; 
+}
+
+form button[type="submit"]:hover {
+  background-color: #4527a0; 
+}

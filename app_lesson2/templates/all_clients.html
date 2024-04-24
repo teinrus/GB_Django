@@ -4,19 +4,33 @@
 <h2>Все клиенты</h2>
 
 <ul>
-  <ul>
     {% for client in clients %}
     <li>
-        {{ client.name }} - {{ client.email }} - {{ client.phone_number }} - {{ client.address }}
-        <form id="updateForm{{ client.id }}" action="{% url 'update_client' client.id %}" method="post" style="display: inline;">
-            {% csrf_token %}
-            <button type="submit">Изменить</button>
-        </form>
-        <form id="deleteForm{{ client.id }}" action="{% url 'delete_client' client.id %}" method="post" style="display: inline;">
-            {% csrf_token %}
-            <button type="button" onclick="confirmDelete({{ client.id }})">Удалить</button>
-        </form>
+        <div class="client-container">
+            <div class="client-info">
+                <span>{{ client.name }}</span>
+                <span>{{ client.email }}</span>
+                <span>{{ client.phone_number }}</span>
+                <span>{{ client.address }}</span>
+            </div>
+            <div class="client-buttons">
+                <form id="updateForm{{ client.id }}" action="{% url 'update_client' client.id %}" method="post" style="display: inline;">
+                    {% csrf_token %}
+                    <button type="submit" class="btn-update">Изменить</button>
+                </form>
+                <form id="deleteForm{{ client.id }}" action="{% url 'delete_client' client.id %}" method="post" style="display: inline;">
+                    {% csrf_token %}
+                    <button type="button" class="btn-delete" onclick="confirmDelete({{ client.id }})">Удалить</button>
+                </form>
+            </div>
+        </div>
+        
+        <button type="button" class="btn-view" onclick="window.location.href='{% url 'client_ordered_products' client_id=client.id days=7 %}'">Посмотреть заказанные товары за последние 7 дней</button>
+        <button type="button" class="btn-view" onclick="window.location.href='{% url 'client_ordered_products' client_id=client.id days=30 %}'">Посмотреть заказанные товары за последние 30 дней</button>    
+        <button type="button" class="btn-view" onclick="window.location.href='{% url 'client_ordered_products' client_id=client.id days=365 %}'">Посмотреть заказанные товары за последний год</button>
+
     </li>
+
     {% endfor %}
 </ul>
 
@@ -26,16 +40,6 @@
             document.getElementById('deleteForm' + clientId).submit();
         }
     }
-</script>
-
-</ul>
-
-<script>
-  function confirmDelete(clientId) {
-      if (confirm('Вы уверены, что хотите удалить этого клиента?')) {
-          document.getElementById('deleteForm' + clientId).submit();
-      }
-  }
 </script>
 
 {% endblock %}

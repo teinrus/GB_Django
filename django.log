@@ -629,3 +629,478 @@ Not Found: /lesso2/
 "GET /lesson2/clients/ HTTP/1.1" 200 1889
 "GET /lesson2/ HTTP/1.1" 200 533
 "GET /lesson2/clients/ HTTP/1.1" 200 1889
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 301
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2546
+"GET /lesson2/ HTTP/1.1" 200 533
+"GET /lesson2/clients/ HTTP/1.1" 200 2354
+"GET /lesson2/clients/5/ordered_products/7/ HTTP/1.1" 200 684
+"GET /lesson2/clients/ HTTP/1.1" 200 2517
+"GET /lesson2/clients/5/ordered_products/7/ HTTP/1.1" 200 684
+"GET /lesson2/clients/5/ordered_products/30/ HTTP/1.1" 200 685
+"GET /lesson2/clients/5/ordered_products/365/ HTTP/1.1" 200 686
+"GET /lesson2/clients/ HTTP/1.1" 200 2586
+"GET /static/app_lesson2/styles.css HTTP/1.1" 404 1823
+"GET /lesson2/clients/ HTTP/1.1" 200 2586
+"GET /static/app_lesson2/styles.css HTTP/1.1" 404 1823
+"GET /lesson2/clients/ HTTP/1.1" 200 2586
+"GET /static/app_lesson2/styles.css HTTP/1.1" 404 1823
+"GET /lesson2/clients/ HTTP/1.1" 200 2586
+"GET /static/app_lesson2/styles.css HTTP/1.1" 404 1823
+"GET /lesson2/clients/ HTTP/1.1" 200 2586
+"GET /static/app_lesson2/styles.css HTTP/1.1" 404 1823
+"GET /lesson2/clients/ HTTP/1.1" 200 2586
+"GET /static/app_lesson2/styles.css HTTP/1.1" 404 1823
+"GET /lesson2/clients/ HTTP/1.1" 200 2586
+"GET /static/app_lesson2/styles.css HTTP/1.1" 404 1823
+"GET /static/app_lesson2/styles.css HTTP/1.1" 404 1823
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/ HTTP/1.1" 200 606
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/ HTTP/1.1" 200 606
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/ HTTP/1.1" 200 606
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/ HTTP/1.1" 200 606
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET / HTTP/1.1" 200 301
+"GET /lesson2/ HTTP/1.1" 200 606
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+Watching for file changes with StatReloader
+"GET /lesson2/ HTTP/1.1" 200 606
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2590
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2588
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2588
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET / HTTP/1.1" 200 301
+"GET /lesson2/ HTTP/1.1" 200 636
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1835
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1936
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1936
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1936
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1936
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1936
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1936
+"GET /lesson2/ HTTP/1.1" 200 636
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1936
+"GET /lesson2/ HTTP/1.1" 200 636
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 404 1936
+"GET /lesson2/ HTTP/1.1" 200 624
+"GET /lesson2/clients/ HTTP/1.1" 200 2608
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 301
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2673
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2673
+"GET /lesson2/ HTTP/1.1" 200 624
+"GET /lesson2/clients/ HTTP/1.1" 200 2608
+Watching for file changes with StatReloader
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 432
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /lesson2/clients/5/ordered_products/7/ HTTP/1.1" 200 787
+"GET /lesson2/ HTTP/1.1" 200 636
+"GET /lesson2/ HTTP/1.1" 200 636
+"GET /lesson2/ HTTP/1.1" 200 636
+"GET /lesson2/ HTTP/1.1" 200 636
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /lesson2/ HTTP/1.1" 200 636
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /lesson2/clients/5/ordered_products/365/ HTTP/1.1" 200 789
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 1174
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 1818
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2620
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 1756
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 1654
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/5/ordered_products/7/ HTTP/1.1" 200 787
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/5/ordered_products/30/ HTTP/1.1" 200 788
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/5/ordered_products/365/ HTTP/1.1" 200 789
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/ HTTP/1.1" 200 636
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2843
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2937
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3152
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2937
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2958
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2960
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2959
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2959
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2960
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2982
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2882
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2747
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/ HTTP/1.1" 200 636
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1311
+Watching for file changes with StatReloader
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1312
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/ HTTP/1.1" 200 636
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1312
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/5/ordered_products/7/ HTTP/1.1" 200 787
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2746
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2747
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1312
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2745
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2995
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2995
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2885
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2873
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3462
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2799
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2572
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2560
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2589
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2589
+"GET /lesson2/clients/ HTTP/1.1" 200 2589
+"GET /lesson2/clients/ HTTP/1.1" 200 2589
+"GET /lesson2/clients/ HTTP/1.1" 200 2589
+"GET /lesson2/clients/ HTTP/1.1" 200 2589
+"GET /lesson2/clients/5/ordered_products/7/ HTTP/1.1" 200 787
+"GET /lesson2/ HTTP/1.1" 200 636
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1312
+"GET /lesson2/clients/ HTTP/1.1" 200 2589
+"GET /lesson2/clients/5/ordered_products/30/ HTTP/1.1" 200 788
+"GET /lesson2/clients/ HTTP/1.1" 200 2589
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/5/ordered_products/365/ HTTP/1.1" 200 789
+"GET /lesson2/clients/ HTTP/1.1" 200 2589
+"POST /lesson2/clients/5/update/ HTTP/1.1" 200 1442
+"POST /lesson2/clients/5/update/ HTTP/1.1" 302 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2580
+"GET /lesson2/clients/ HTTP/1.1" 200 2730
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2730
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3804
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/5/ordered_products/30/ HTTP/1.1" 200 788
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/5/ordered_products/365/ HTTP/1.1" 200 789
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2730
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3757
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2730
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3804
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"POST /lesson2/clients/5/update/ HTTP/1.1" 200 1433
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1312
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2730
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 4023
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2730
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2565
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2565
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3974
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2565
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3917
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1312
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2565
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 4093
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2565
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 4174
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2565
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 4928
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2565
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 4024
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2565
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 4247
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2565
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 4247
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2565
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3837
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 4378
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"POST /lesson2/clients/5/update/ HTTP/1.1" 200 1433
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/5/ordered_products/7/ HTTP/1.1" 200 787
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/5/ordered_products/30/ HTTP/1.1" 200 788
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/5/ordered_products/365/ HTTP/1.1" 200 789
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 4700
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 4703
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3800
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3827
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3924
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 4139
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 4054
+"GET /static/app_lesson2/images/background.jpg HTTP/1.1" 404 1957
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3787
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3787
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 3787
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 200 2467
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1312
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
