@@ -1104,3 +1104,931 @@ Watching for file changes with StatReloader
 "GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
 "GET /lesson2/clients/ HTTP/1.1" 200 2768
 "GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 301
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2673
+"GET /lesson2/ HTTP/1.1" 200 636
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1312
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1312
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /lesson2/clients/5/ordered_products/7/ HTTP/1.1" 200 787
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /lesson2/clients/5/ordered_products/30/ HTTP/1.1" 200 788
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"GET /lesson2/clients/5/ordered_products/365/ HTTP/1.1" 200 789
+"GET /lesson2/clients/ HTTP/1.1" 200 2768
+"POST /lesson2/clients/5/update/ HTTP/1.1" 200 1433
+"POST /lesson2/clients/5/update/ HTTP/1.1" 302 0
+"GET /lesson2/clients/ HTTP/1.1" 200 2771
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 301
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2673
+"GET /lesson2/ HTTP/1.1" 200 726
+"GET /static/app_lesson2/css/styles.css HTTP/1.1" 304 0
+"GET /lesson2/product/create/ HTTP/1.1" 200 1754
+Internal Server Error: /lesson2/product/create/
+Traceback (most recent call last):
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py", line 78, in create_product
+    return redirect('product_list')  # Перенаправляем на страницу со списком продуктов
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'product_list' not found. 'product_list' is not a valid view function or pattern name.
+"POST /lesson2/product/create/ HTTP/1.1" 500 90498
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /lesson2/product/create/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1428
+Not Found: /product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png
+"GET /product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png HTTP/1.1" 404 2886
+Not Found: /product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png
+"GET /product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 404 2862
+"GET /lesson2/products/ HTTP/1.1" 200 1428
+Not Found: /product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png
+"GET /product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png HTTP/1.1" 404 2886
+Not Found: /product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png
+"GET /product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 404 2862
+"GET / HTTP/1.1" 200 301
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4626
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4626
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4624
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4628
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4628
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4626
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4628
+"GET / HTTP/1.1" 200 301
+"GET /lesson2/ HTTP/1.1" 200 726
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 301
+"GET /lesson2/ HTTP/1.1" 200 726
+"GET /lesson2/product/create/ HTTP/1.1" 200 1754
+"POST /lesson2/product/create/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1852
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 404 2880
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png HTTP/1.1" 404 2904
+"GET /lesson2/products/ HTTP/1.1" 200 1852
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 404 2880
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png HTTP/1.1" 404 2904
+"GET / HTTP/1.1" 200 301
+"GET /lesson2/ HTTP/1.1" 200 797
+"GET /lesson2/products/ HTTP/1.1" 200 1923
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 404 2880
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png HTTP/1.1" 404 2904
+"GET /lesson2/products/ HTTP/1.1" 200 1923
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 404 2880
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png HTTP/1.1" 404 2904
+"GET /lesson2/products/ HTTP/1.1" 200 1916
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png HTTP/1.1" 404 2904
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 404 2880
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/gb_django/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/products/ HTTP/1.1" 200 1916
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 200 69447
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png HTTP/1.1" 404 3327
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/products/ HTTP/1.1" 200 1916
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 304 0
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png HTTP/1.1" 404 3327
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/products/ HTTP/1.1" 200 2093
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 304 0
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png HTTP/1.1" 404 3327
+"GET /lesson2/products/1/update/ HTTP/1.1" 200 2214
+"POST /lesson2/products/1/update/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1965
+Not Found: /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_xjFOHOj.png HTTP/1.1" 404 3327
+"GET /lesson2/products/2/update/ HTTP/1.1" 200 2230
+"POST /lesson2/products/2/update/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1965
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_Hok8zzQ.png HTTP/1.1" 200 69447
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 301
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2799
+"GET /lesson2/ HTTP/1.1" 200 784
+Internal Server Error: /lesson2/products/
+Traceback (most recent call last):
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py", line 107, in product_list
+    return render(request, 'product_list.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_product' not found. 'delete_product' is not a valid view function or pattern name.
+"GET /lesson2/products/ HTTP/1.1" 500 179459
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2799
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 301
+"GET /lesson2/ HTTP/1.1" 200 784
+Internal Server Error: /lesson2/products/
+Traceback (most recent call last):
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py", line 105, in product_list
+    return render(request, 'product_list.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_product' not found. 'delete_product' is not a valid view function or pattern name.
+"GET /lesson2/products/ HTTP/1.1" 500 179164
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/products/ HTTP/1.1" 200 2151
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_Hok8zzQ.png HTTP/1.1" 304 0
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 304 0
+"GET /lesson2/products/1/delete/ HTTP/1.1" 200 1873
+"GET /lesson2/products/1/update/ HTTP/1.1" 200 1873
+"GET /lesson2/products/1/delete/ HTTP/1.1" 200 1873
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/products/ HTTP/1.1" 200 2151
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_Hok8zzQ.png HTTP/1.1" 304 0
+"GET /lesson2/products/1/delete/ HTTP/1.1" 200 1089
+"POST /lesson2/products/1/delete/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1839
+"GET /lesson2/products/2/delete/ HTTP/1.1" 200 1089
+"GET /lesson2/ HTTP/1.1" 200 784
+Internal Server Error: /lesson2/products/
+Traceback (most recent call last):
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py", line 105, in product_list
+    return render(request, 'product_list.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'update_product' with arguments '('',)' not found. 1 pattern(s) tried: ['lesson2/products/(?P<product_id>[0-9]+)/update/\\Z']
+"GET /lesson2/products/ HTTP/1.1" 500 183364
+Internal Server Error: /lesson2/products/
+Traceback (most recent call last):
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py", line 105, in product_list
+    return render(request, 'product_list.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'update_product' with arguments '('',)' not found. 1 pattern(s) tried: ['lesson2/products/(?P<product_id>[0-9]+)/update/\\Z']
+"GET /lesson2/products/ HTTP/1.1" 500 183478
+"GET /lesson2/products/ HTTP/1.1" 200 2869
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_Hok8zzQ.png HTTP/1.1" 304 0
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 304 0
+"POST /lesson2/products/2/update/ HTTP/1.1" 200 2549
+"POST /lesson2/products/3/update/ HTTP/1.1" 200 2581
+"GET /lesson2/products/ HTTP/1.1" 200 2869
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/products/ HTTP/1.1" 200 2869
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_Hok8zzQ.png HTTP/1.1" 304 0
+Internal Server Error: /lesson2/products/2/update/
+Traceback (most recent call last):
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: update_product_view() got an unexpected keyword argument 'product_id'
+"POST /lesson2/products/2/update/ HTTP/1.1" 500 66741
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /lesson2/products/2/update/ HTTP/1.1" 200 2549
+"POST /lesson2/products/2/update/ HTTP/1.1" 200 2549
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /lesson2/products/2/update/ HTTP/1.1" 200 2549
+Internal Server Error: /lesson2/products/
+Traceback (most recent call last):
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py", line 97, in product_list
+    return render(request, 'product_list.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_product' not found. 'delete_product' is not a valid view function or pattern name.
+"GET /lesson2/products/ HTTP/1.1" 500 180182
+"GET /lesson2/products/ HTTP/1.1" 200 2211
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_Hok8zzQ.png HTTP/1.1" 304 0
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 304 0
+"POST /lesson2/products/2/update/ HTTP/1.1" 200 2549
+"POST /lesson2/products/2/update/ HTTP/1.1" 200 2549
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/products/ HTTP/1.1" 200 2211
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_Hok8zzQ.png HTTP/1.1" 304 0
+"POST /lesson2/products/2/update/ HTTP/1.1" 200 2549
+"POST /lesson2/products/2/update/ HTTP/1.1" 200 2552
+"POST /lesson2/products/2/update/ HTTP/1.1" 200 2552
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/products/ HTTP/1.1" 200 2211
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_Hok8zzQ.png HTTP/1.1" 304 0
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40.png HTTP/1.1" 304 0
+Internal Server Error: /lesson2/products/
+Traceback (most recent call last):
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py", line 102, in product_list
+    return render(request, 'product_list.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/teinrus/file/project/GB_Django/gb_django/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_product' not found. 'delete_product' is not a valid view function or pattern name.
+"GET /lesson2/products/ HTTP/1.1" 500 180398
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/products/ HTTP/1.1" 200 2869
+"GET /lesson2/products/ HTTP/1.1" 200 2819
+"GET /lesson2/products/ HTTP/1.1" 200 2819
+"GET /lesson2/products/ HTTP/1.1" 200 2819
+Watching for file changes with StatReloader
+"GET /lesson2/products/ HTTP/1.1" 200 2815
+"POST /lesson2/products/2/delete/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1879
+"POST /lesson2/products/3/delete/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 856
+"GET /lesson2/products/ HTTP/1.1" 200 856
+"GET /lesson2/products/ HTTP/1.1" 200 856
+"GET /lesson2/product/create/ HTTP/1.1" 200 1812
+"POST /lesson2/product/create/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1812
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_JZwI6Vm.png HTTP/1.1" 200 69447
+"POST /lesson2/products/4/delete/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 856
+"GET /lesson2/product/create/ HTTP/1.1" 200 1812
+"POST /lesson2/product/create/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1804
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_8EYeKtm.png HTTP/1.1" 200 69447
+"POST /lesson2/products/5/update/ HTTP/1.1" 200 2552
+"POST /lesson2/products/5/update/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1899
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_8EYeKtm.png HTTP/1.1" 304 0
+"POST /lesson2/products/5/update/ HTTP/1.1" 200 2600
+"POST /lesson2/products/5/update/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1672
+"GET /lesson2/products/ HTTP/1.1" 200 1672
+"POST /lesson2/products/5/delete/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 856
+"GET /lesson2/product/create/ HTTP/1.1" 200 1812
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1460
+"GET /lesson2/clients/create/ HTTP/1.1" 200 1460
+"GET /lesson2/product/create/ HTTP/1.1" 200 1812
+"POST /lesson2/product/create/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1811
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_VvfohgL.png HTTP/1.1" 200 69447
+"POST /lesson2/products/6/delete/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 856
+"GET /lesson2/product/create/ HTTP/1.1" 200 1812
+"POST /lesson2/product/create/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1795
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_WZnyREa.png HTTP/1.1" 200 69447
+"GET /lesson2/clients/ HTTP/1.1" 200 2919
+"POST /lesson2/clients/5/update/ HTTP/1.1" 200 1584
+"GET /lesson2/products/ HTTP/1.1" 200 1795
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_WZnyREa.png HTTP/1.1" 304 0
+"POST /lesson2/products/7/update/ HTTP/1.1" 200 2550
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/media/teinrus/file/project/GB_Django/gb_django/app_lesson2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /lesson2/products/ HTTP/1.1" 200 1795
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_WZnyREa.png HTTP/1.1" 304 0
+"POST /lesson2/products/7/update/ HTTP/1.1" 200 2576
+"POST /lesson2/products/7/update/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1814
+"POST /lesson2/products/7/update/ HTTP/1.1" 200 2584
+"GET /lesson2/products/ HTTP/1.1" 200 1846
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_WZnyREa.png HTTP/1.1" 304 0
+"POST /lesson2/products/7/update/ HTTP/1.1" 200 2584
+"POST /lesson2/products/7/update/ HTTP/1.1" 200 2584
+"POST /lesson2/products/7/update/ HTTP/1.1" 200 2584
+"POST /lesson2/products/7/update/ HTTP/1.1" 200 2584
+"POST /lesson2/products/7/update/ HTTP/1.1" 200 2555
+"GET /lesson2/products/ HTTP/1.1" 200 1846
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_WZnyREa.png HTTP/1.1" 304 0
+"POST /lesson2/products/7/update/ HTTP/1.1" 200 2555
+"GET /lesson2/ HTTP/1.1" 200 784
+"GET /lesson2/products/ HTTP/1.1" 200 1846
+"POST /lesson2/products/7/update/ HTTP/1.1" 200 2555
+"POST /lesson2/products/7/delete/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 857
+"GET /lesson2/product/create/ HTTP/1.1" 200 1812
+"POST /lesson2/product/create/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1834
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_uYfPMJG.png HTTP/1.1" 200 69447
+"POST /lesson2/products/8/update/ HTTP/1.1" 200 2549
+"POST /lesson2/products/8/update/ HTTP/1.1" 200 2549
+"GET /lesson2/clients/ HTTP/1.1" 200 2919
+"GET /lesson2/ HTTP/1.1" 200 784
+"GET /lesson2/ HTTP/1.1" 200 784
+"GET /lesson2/clients/ HTTP/1.1" 200 2919
+"POST /lesson2/clients/5/update/ HTTP/1.1" 200 1584
+"GET /lesson2/products/ HTTP/1.1" 200 1834
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_uYfPMJG.png HTTP/1.1" 304 0
+"POST /lesson2/products/8/update/ HTTP/1.1" 200 2549
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 301
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2799
+"GET /lesson2/ HTTP/1.1" 200 784
+"GET /lesson2/products/ HTTP/1.1" 200 1834
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_uYfPMJG.png HTTP/1.1" 304 0
+"POST /lesson2/products/8/update/ HTTP/1.1" 200 2549
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2799
+"GET /lesson2/products/ HTTP/1.1" 200 1585
+"GET /lesson2/products/8/update/ HTTP/1.1" 200 2240
+"GET /lesson2/products/8/update/ HTTP/1.1" 200 2240
+"GET /lesson2/products/ HTTP/1.1" 200 1583
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_uYfPMJG.png HTTP/1.1" 304 0
+"GET /lesson2/products/8/update/ HTTP/1.1" 200 2240
+"GET /lesson2/products/ HTTP/1.1" 200 1583
+"POST /lesson2/products/8/delete/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 857
+"GET /lesson2/product/create/ HTTP/1.1" 200 1812
+"POST /lesson2/product/create/ HTTP/1.1" 302 0
+"GET /lesson2/products/ HTTP/1.1" 200 1583
+"GET /media/product_photos/1681094319_sneg-top-p-programmist-kartinki-instagram-40_dt34OCT.png HTTP/1.1" 200 69447

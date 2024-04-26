@@ -1,6 +1,6 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .models import Client, Product, Order
-from .forms import ClientForm
+from .forms import ClientForm,ProductForm
 from django.utils import timezone
 from django.shortcuts import render
 
@@ -70,3 +70,34 @@ def client_ordered_products(request, client_id, days):
     }
     return render(request, 'client_ordered_products.html', context)
 
+def create_product(request):
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return redirect('product_list')  
+    else:
+        form = ProductForm()
+    return render(request, 'create_product.html', {'form': form})
+
+def update_product_view(request, product_id):
+    product = Product.objects.get(id=product_id)
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES, instance=product)
+        if form.is_valid():
+            form.save()
+            return redirect('product_list')
+    else:
+        form = ProductForm(instance=product)
+    return render(request, 'update_product.html', {'form': form, 'product': product})
+
+def delete_product_view(request, product_id):
+    product = get_object_or_404(Product, id=product_id)
+    if request.method == 'POST':
+        product.delete()
+        return redirect('product_list') 
+    return render(request, 'confirm_delete_product.html', {'product': product})
+
+def product_list(request):
+    products = Product.objects.all()
+    return render(request, 'product_list.html', {'products': products})

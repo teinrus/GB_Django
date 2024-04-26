@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Список продуктов{% endblock %}
+
+{% block content %}
+<h2>Список продуктов</h2>
+<ul>
+  {% for product in products %}
+  <li>
+    <h3>{{ product.name }}</h3>
+    <p>{{ product.description }}</p>
+    <p>Цена: {{ product.price }}</p>
+    <p>Количество: {{ product.quantity }}</p>
+    <p>Дата добавления: {{ product.added_date }}</p>
+    {% if product.photo %}
+    <img src="{{ product.photo.url }}" alt="{{ product.name }}" width="100">
+    {% endif %}
+    
+
+
+
+    <a href="{% url 'update_product' product.id %}">Изменить</a>
+    
+    <form id="deleteForm{{ product.id }}" action="{% url 'delete_product' product.id %}" method="post" style="display: inline;">
+      {% csrf_token %}
+      <button type="submit" class="btn-delete">Удалить</button>
+    </form>
+  </li>
+  {% endfor %}
+</ul>
+
+{% endblock %}
